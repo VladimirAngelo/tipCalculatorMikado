@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Distribution Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tip Distribution Calculator</h1>
+  
+  <form id="tip-form">
+    <label for="totalTips">Total Tips Collected:</label><br>
+    <input type="number" id="totalTips" step="0.01" placeholder="Enter total tips" required><br><br>
+
+    <label for="hours1">Employee 1 Hours Worked:</label><br>
+    <input type="number" id="hours1" step="0.01" placeholder="Enter hours for Employee 1" required><br><br>
+
+    <label for="hours2">Employee 2 Hours Worked:</label><br>
+    <input type="number" id="hours2" step="0.01" placeholder="Enter hours for Employee 2" required><br><br>
+
+    <label for="hours1">Employee 3 Hours Worked:</label><br>
+    <input type="number" id="hours3" step="0.01" placeholder="Enter hours for Employee 3" required><br><br>
+
+    <label for="hours2">Employee 4 Hours Worked:</label><br>
+    <input type="number" id="hours4" step="0.01" placeholder="Enter hours for Employee 4" required><br><br>
+
+    <label for="hours1">Employee 5 Hours Worked:</label><br>
+    <input type="number" id="hours5" step="0.01" placeholder="Enter hours for Employee 5" required><br><br>
+
+    <label for="hours2">Employee 6 Hours Worked:</label><br>
+    <input type="number" id="hours6" step="0.01" placeholder="Enter hours for Employee 6" required><br><br>
+
+    <label for="hours1">Employee 7 Hours Worked:</label><br>
+    <input type="number" id="hours7" step="0.01" placeholder="Enter hours for Employee 7" required><br><br>
+
+    <label for="hours2">Employee 8 Hours Worked:</label><br>
+    <input type="number" id="hours8" step="0.01" placeholder="Enter hours for Employee 8" required><br><br>
+
+    <label for="hours1">Employee 9 Hours Worked:</label><br>
+    <input type="number" id="hours9" step="0.01" placeholder="Enter hours for Employee 9" required><br><br>
+
+    <label for="hours2">Employee 10 Hours Worked:</label><br>
+    <input type="number" id="hours10" step="0.01" placeholder="Enter hours for Employee 10" required><br><br>
+
+    <label for="hours1">Employee 11 Hours Worked:</label><br>
+    <input type="number" id="hours11" step="0.01" placeholder="Enter hours for Employee 11" required><br><br>
+
+    <label for="hours2">Employee 12 Hours Worked:</label><br>
+    <input type="number" id="hours12" step="0.01" placeholder="Enter hours for Employee 12" required><br><br>
+
+
+
+
+    <button type="button" onclick="calculateTips()">Calculate Tips</button>
+  </form>
+
+  <h2>Tip Distribution</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Employee</th>
+        <th>Hours Worked</th>
+        <th>Tip Share ($)</th>
+      </tr>
+    </thead>
+    <tbody id="result">
+      <tr>
+        <td colspan="3">No data yet.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
