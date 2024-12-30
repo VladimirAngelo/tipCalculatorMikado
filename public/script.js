@@ -102,23 +102,23 @@ function calculateTips() {
     // Render results in the table
     const resultTable = document.getElementById('result');
     resultTable.innerHTML = `
-      <tr><td>Employee 1</td><td>${hours1.toFixed(2)}</td><td>${tips1.toFixed(2)}</td></tr>
-      <tr><td>Employee 2</td><td>${hours2.toFixed(2)}</td><td>${tips2.toFixed(2)}</td></tr>
-      <tr><td>Employee 3</td><td>${hours3.toFixed(2)}</td><td>${tips3.toFixed(2)}</td></tr>
-      <tr><td>Employee 4</td><td>${hours4.toFixed(2)}</td><td>${tips4.toFixed(2)}</td></tr>
-      <tr><td>Employee 5</td><td>${hours5.toFixed(2)}</td><td>${tips5.toFixed(2)}</td></tr>
-      <tr><td>Employee 6</td><td>${hours6.toFixed(2)}</td><td>${tips6.toFixed(2)}</td></tr>
-      <tr><td>Employee 7</td><td>${hours7.toFixed(2)}</td><td>${tips7.toFixed(2)}</td></tr>
-      <tr><td>Employee 8</td><td>${hours8.toFixed(2)}</td><td>${tips8.toFixed(2)}</td></tr>
-      <tr><td>Employee 9</td><td>${hours9.toFixed(2)}</td><td>${tips9.toFixed(2)}</td></tr>
-      <tr><td>Employee 10</td><td>${hours10.toFixed(2)}</td><td>${tips10.toFixed(2)}</td></tr>
-      <tr><td>Employee 11</td><td>${hours11.toFixed(2)}</td><td>${tips11.toFixed(2)}</td></tr>
-      <tr><td>Employee 12</td><td>${hours12.toFixed(2)}</td><td>${tips12.toFixed(2)}</td></tr>
-      <tr><td>Employee 12</td><td>${hours13.toFixed(2)}</td><td>${tips13.toFixed(2)}</td></tr>
-      <tr><td>Employee 12</td><td>${hours14.toFixed(2)}</td><td>${tips14.toFixed(2)}</td></tr>
-      <tr><td>Employee 12</td><td>${hours15.toFixed(2)}</td><td>${tips15.toFixed(2)}</td></tr>
-      <tr><td>Employee 12</td><td>${hours16.toFixed(2)}</td><td>${tips16.toFixed(2)}</td></tr>
-      <tr><td>Employee 12</td><td>${hours17.toFixed(2)}</td><td>${tips17.toFixed(2)}</td></tr>
+      <tr><td>Vladimir</td><td>${hours1.toFixed(2)}</td><td>${tips1.toFixed(2)}</td></tr>
+      <tr><td>Angelo</td><td>${hours2.toFixed(2)}</td><td>${tips2.toFixed(2)}</td></tr>
+      <tr><td>Jhundee</td><td>${hours3.toFixed(2)}</td><td>${tips3.toFixed(2)}</td></tr>
+      <tr><td>Joe</td><td>${hours4.toFixed(2)}</td><td>${tips4.toFixed(2)}</td></tr>
+      <tr><td>Kevin F</td><td>${hours5.toFixed(2)}</td><td>${tips5.toFixed(2)}</td></tr>
+      <tr><td>Kevin Park</td><td>${hours6.toFixed(2)}</td><td>${tips6.toFixed(2)}</td></tr>
+      <tr><td>Saray</td><td>${hours7.toFixed(2)}</td><td>${tips7.toFixed(2)}</td></tr>
+      <tr><td>Nayeli</td><td>${hours8.toFixed(2)}</td><td>${tips8.toFixed(2)}</td></tr>
+      <tr><td>Karina</td><td>${hours9.toFixed(2)}</td><td>${tips9.toFixed(2)}</td></tr>
+      <tr><td>Andy</td><td>${hours10.toFixed(2)}</td><td>${tips10.toFixed(2)}</td></tr>
+      <tr><td>Rachel</td><td>${hours11.toFixed(2)}</td><td>${tips11.toFixed(2)}</td></tr>
+      <tr><td>Immanuel</td><td>${hours12.toFixed(2)}</td><td>${tips12.toFixed(2)}</td></tr>
+      <tr><td>Jay</td><td>${hours13.toFixed(2)}</td><td>${tips13.toFixed(2)}</td></tr>
+      <tr><td>Josh</td><td>${hours14.toFixed(2)}</td><td>${tips14.toFixed(2)}</td></tr>
+      <tr><td>Sheena</td><td>${hours15.toFixed(2)}</td><td>${tips15.toFixed(2)}</td></tr>
+      <tr><td>Denzel</td><td>${hours16.toFixed(2)}</td><td>${tips16.toFixed(2)}</td></tr>
+      <tr><td>Hazael</td><td>${hours17.toFixed(2)}</td><td>${tips17.toFixed(2)}</td></tr>
       <tr><th>Total</th><th>${(hours1 + hours2 + hours3 + hours4 + hours5 + hours6 + hours7 + hours8 + hours9 + hours10 + hours11 + hours12 + hours13 + hours14 + hours15 + hours16 + hours17).toFixed(2)}</th><th>${totalTips.toFixed(2)}</th></tr>
     `;
   }
